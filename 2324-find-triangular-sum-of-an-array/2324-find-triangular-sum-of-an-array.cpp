@@ -5,13 +5,20 @@ public:
         if(nums.size()==1)
          return nums[0];
 
-        vector<int>temp;
-        for( int i=1;i<nums.size();i++)
+        int n=nums.size();
+        for(int i=0;i<n-1;i++)
         {
-           temp.push_back((nums[i-1]+nums[i]) %10);
-        //    cout<<nums[i-1]+nums[i]<<"  ";
-        } 
-        // cout<<endl;
-        return triangularSum(temp);
+            for( int j=0;j<n;j++)
+            {
+                if(j==n-1-i)
+                {
+                    nums[j]=0;
+                    break;
+                }
+                else
+                 nums[j]=( nums[j]+nums[j+1])%10;
+            }
+        }
+        return nums[0];
     }
 };
