@@ -2,6 +2,8 @@ class Solution {
 public:
     int romanToInt(string s) 
     {
+        //when a smaller value appears before a larger value, it represents subtraction,
+ //while when a smaller value appears after or equal to a larger value, it represents addition
         unordered_map<char,int>mp;
         mp['I']  = 1;
         mp['V']  = 5;
