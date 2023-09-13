@@ -19,7 +19,7 @@ public:
         {
             if(check(s.substr(index)))
               ans.push_back( temp +s.substr(index));
-              cout<<"return"<<endl;
+            
             return ;
         }
         int sz= s.length();
