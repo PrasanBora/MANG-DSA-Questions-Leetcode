@@ -29,12 +29,38 @@ public:
 
         return dp[i][j] =min(sum0,sum1);
     }
+     
+    int solvetb( vector<vector<int>>&triangle )
+    {
+       int n = triangle.size();
+       vector<vector<int>>dp( n,vector<int>( n+1,0));
 
+       for(int i=0;i<n;i++ )
+        dp[n-1][i] = triangle[n-1][i];
+
+       for( int i = n-2 ;i>=0;i--)
+       {
+           for( int j= 0;j<i+1;j++)
+           {
+                int sum0 =INT_MAX;
+                int sum1 =INT_MAX;
+            
+                sum0 = triangle[i][j] + dp[i+1][j];
+                sum1 = triangle[i][j] + dp[i+1][j+1];
+
+                dp[i][j] =min(sum0,sum1);
+           }
+       } 
+       return dp[0][0];
+
+    } 
     int minimumTotal(vector<vector<int>>& triangle) 
     {
         // return solve( triangle ,0,0 );
 
-        vector<vector<int>>dp(triangle.size(),vector<int>(triangle.size(),-1));
-        return solvemem( triangle,0,0,dp);
+        // vector<vector<int>>dp(triangle.size(),vector<int>(triangle.size(),-1));
+        // return solvemem( triangle,0,0,dp);
+
+        return solvetb( triangle );
     }
 };
