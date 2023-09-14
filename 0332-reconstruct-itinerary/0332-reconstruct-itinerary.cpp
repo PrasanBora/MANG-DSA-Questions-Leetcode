@@ -25,27 +25,7 @@ public:
         path.pop_back();
         return 0;
     }
-    //  bool dfs(string s, vector<string> &path){
-    //     path.push_back(s);
-    //     if(path.size() == numTickets+1){
-    //         ans = path;
-    //         return true;
-    //     }
-
-    //     vector<string> &rest = adj[s];
-    //     for(int i=0; i<rest.size(); i++){
-    //         string curr = rest[i];
-    //         rest.erase(rest.begin()+i);
-
-    //         if(dfs(curr, path)){
-    //             return true;
-    //         }
-
-    //         rest.insert(rest.begin()+i, curr);
-    //     }
-    //     path.pop_back();
-    //     return 0;
-    // }
+   
 
     vector<string> findItinerary(vector<vector<string>>& tickets) 
     {
