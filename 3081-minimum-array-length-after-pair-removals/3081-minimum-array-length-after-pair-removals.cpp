@@ -11,23 +11,37 @@ How many elements are remaining? The elements remaining are (n - maxi). So eleme
     int minLengthAfterRemovals(vector<int>& nums) 
     {
       int n=nums.size();
-      unordered_map<int,int>mp;
-      for( auto i : nums)
-       mp[i]++;   
+      // unordered_map<int,int>mp;
+      // for( auto i : nums)
+      //  mp[i]++;   
       
-      int mx=0;
-       for( auto it:mp)
-        mx= max(mx,it.second);
+      // int mx=0;
+      //  for( auto it:mp)
+      //   mx= max(mx,it.second);
 
-      if( mx <= n/2 )
+      // if( mx <= n/2 )
+      // {
+      //     if( n%2 ==0 )
+      //      return 0;
+      //     else 
+      //      return 1; 
+      // }  
+      // else 
+      //  return 2* mx -n;
+
+      int i=0,j=n/2;
+      int del=0;
+
+      while( i <n/2 && j<nums.size ())
       {
-          if( n%2 ==0 )
-           return 0;
-          else 
-           return 1; 
-      }  
-      else 
-       return 2* mx -n;
+          if( nums[i] < nums[j])
+          {
+            i++;
+            del+=2;
+          }
+          j++;
+      }
+      return n-del;
         
     }
 };
