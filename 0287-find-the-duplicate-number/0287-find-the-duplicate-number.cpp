@@ -17,6 +17,6 @@ public:
             else 
              high= mid-1; 
         }
-        return high+1;
+        return low;
     }
 };
