@@ -37,24 +37,24 @@ public:
         int left =0,right=0;
         int temp=0;
         int n = nums.size();
-        int res =-1;
+        int res =0;
+        
+        if(sum==0)
+         return n;
+
         while(  right<n)
         {
-            cout<<temp<<endl;
           temp+=nums[right];
+
           while(temp>sum && left<n)
-          {
               temp-=nums[left++];
-          }
           
           if( temp == sum )
-          {
               res=max(res,right-left+1);
-              cout<<"temp == sum"<<res;
-          }
+          
           right++;
         }
-        return n-res >n ?-1 :n-res;
+        return res ? n-res:-1;
 
     }
 };
