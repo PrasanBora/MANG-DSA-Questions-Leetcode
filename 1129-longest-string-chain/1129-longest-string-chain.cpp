@@ -14,10 +14,12 @@ public:
             for(int i=0;i<start.size();i++)
             {
                 string pred = start.substr(0,i)+start.substr(i+1);
-                if( chains.find(pred) != chains.end())
-                {
+                // cout<< pred<<"-";
+                // cout<< start.erase(i,1)<<endl;
+                // if( chains.find(pred) != chains.end())
+                // {
                     chains[start]= max( chains[start],chains[pred]+1);
-                }
+                // }
             }
         }
         int mxchain=0;
