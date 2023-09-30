@@ -26,5 +26,28 @@ public:
             size/=s[i]-'0';
        }
        return "";
+
+    //  string ans="";
+    //  for(int i=0;i<s.size();i++)
+    //  {
+    //     if(ans.length() >=k)
+    //       break;
+
+    //     if(s[i]>='a'&&s[i]<='z')
+    //     {
+    //         ans.push_back(s[i]);
+    //     }
+    //     else 
+    //     {
+    //          int freq = s[i]-'0';
+    //          freq--;
+    //          string str = ans;
+    //          while(freq--)
+    //          {
+    //              ans+=str;
+    //          }
+    //     }
+    //  }
+    //   return (string)""+ ans[k-1];
     }
 };
