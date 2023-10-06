@@ -28,11 +28,34 @@ public:
         return dp[n];
 
     }
+
+    int solvemath(int n)
+    {
+        if(n<=3)
+         return n-1;
+
+        int count_3 = n/3;
+        int rem = n%3;
+
+        if( rem == 0)
+         return pow(3,count_3);
+
+        if( rem == 1)
+         return pow(3,count_3-1)*4;
+
+        if( rem == 2)
+         return pow(3,count_3)*2;  
+
+        return INT_MAX; 
+
+    }
     int integerBreak(int n) 
     {
         // vector<int>dp(n+1,-1);
         // return solve (n,dp);
 
-        return solvetb(n);
+        // return solvetb(n);
+
+        return solvemath(n);
     }
 };
