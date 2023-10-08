@@ -1,39 +1,48 @@
 class Solution {
 public:
-    int value(string str)
+    int solve ( string &s1,string &s2,int i1,int i2,vector<vector<int>>&dp)
     {
-        int score=0;
-        for(int i=0;i<str.length();i++)
-        score+=str[i];
+        if(i1==s1.length() &&i2==s2.length())
+         return 0;
 
-        return score;
-    }
-    int solve ( string s1, string s2)
-    {
-       int n =s1.length();
-       int m =s2.length();
+        if(dp[i1][i2]!=-1)
+         return dp[i1][i2]; 
 
-       vector<vector<int>>dp(n+1,vector<int>(m+1,0));
-       for(int i =n-1;i>=0;i--)
-       {
-           for(int j=m-1;j>=0;j--)
+        if(i1==s1.length()&&i2<s2.length())
+        {
+          int ans=0;
+          for(int it=i2;it<s2.length();it++)
            {
-               if(s1[i]==s2[j])
-               {
-                   dp[i][j]= s1[i]+dp[i+1][j+1];
-               }
-               else 
-                dp[i][j] = max( dp[i+1][j],dp[i][j+1]);
+               ans+=s2[it];
            }
-       }
-       return dp[0][0];
+           return ans;
+        } 
+
+        if(i2==s2.length()&&i1<s1.length())
+        {
+          int ans=0;
+          for(int it=i1;it<s1.length();it++)
+           {
+               ans+=s1[it];
+           }
+           return ans;
+        }
+
+        if(s1[i1]==s2[i2])
+         return solve(s1,s2,i1+1,i2+1,dp);
+
+        int cost1=s1[i1];
+        int cost2=s2[i2]; 
+
+        int c1 = cost1+solve(s1,s2,i1+1,i2,dp);
+        int c2 = cost2+solve(s1,s2,i1,i2+1,dp);
+        int c3 = cost1+cost2+solve(s1,s2,i1+1,i2+1,dp);
+
+        return dp[i1][i2]=min({c1,c2,c3});
     }
     int minimumDeleteSum(string s1, string s2) 
     {
-       int value_s1 = value(s1);
-       int value_s2 = value(s2);
-       int value_lcs = solve(s1,s2);
-
-        return value_s1+value_s2 - (2*value_lcs); 
+        vector<vector<int>>dp(s1.size()+1,vector<int>(s2.size()+1,-1));
+        return solve(s1,s2,0,0,dp);
     }
 };
