@@ -65,10 +65,10 @@ public:
                 
                 else 
                { int cost1=s1[i1];
-                int cost2=s2[i2]; 
+                 int cost2=s2[i2]; 
 
                  dp[i1][i2]=min(cost1+dp[i1+1][i2],cost2+dp[i1][i2+1]);
-                 }
+               }
             }
         }    
          return dp[0][0];
