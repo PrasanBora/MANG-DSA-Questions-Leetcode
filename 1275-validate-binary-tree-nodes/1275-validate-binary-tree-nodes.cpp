@@ -1,27 +1,59 @@
 class Solution {
 public:
     
-    bool binarytree( int root,vector<int>& leftchild, vector<int>& rightchild)
+    // bool binarytree( int root,vector<int>& leftchild, vector<int>& rightchild)
+    // {
+    //     // bfs
+    //      vector<int>vis(leftchild.size(),0);
+    //      queue<int>q;
+
+    //      q.push(root);
+    //      vis[root]=true;
+
+    //      while(!q.empty())
+    //      {
+    //          int curr=q.front();
+    //          q.pop();
+
+    //          if(leftchild[curr]!=-1)
+    //          {
+    //              if(vis[leftchild[curr]])
+    //               return false;
+
+    //              q.push(leftchild[curr]);
+    //              vis[leftchild[curr]]=true;
+
+    //          }
+
+    //          if(rightchild[curr]!=-1)
+    //          {
+    //              if(vis[rightchild[curr]])
+    //               return false;
+
+    //              q.push(rightchild[curr]);
+    //              vis[rightchild[curr]]=true;
+
+    //          }
+    //      }
+    //      for( auto it : vis )
+    //      {
+    //          if(!it)
+    //           return false;
+    //      }
+    //      return true;
+    // }
+    
+     bool binarytree( int curr,vector<int>& leftchild, vector<int>& rightchild,vector<bool>&vis )
     {
-        // bfs
-         vector<int>vis(leftchild.size(),0);
-         queue<int>q;
-
-         q.push(root);
-         vis[root]=true;
-
-         while(!q.empty())
-         {
-             int curr=q.front();
-             q.pop();
-
+        
              if(leftchild[curr]!=-1)
              {
                  if(vis[leftchild[curr]])
                   return false;
 
-                 q.push(leftchild[curr]);
                  vis[leftchild[curr]]=true;
+                 if (!binarytree(leftchild[curr],leftchild,rightchild,vis)) 
+                  return false;
 
              }
 
@@ -30,18 +62,13 @@ public:
                  if(vis[rightchild[curr]])
                   return false;
 
-                 q.push(rightchild[curr]);
                  vis[rightchild[curr]]=true;
-
+                 if (!binarytree(rightchild[curr],leftchild,rightchild,vis)) 
+                  return false;
              }
+              return true;
          }
-         for( auto it : vis )
-         {
-             if(!it)
-              return false;
-         }
-         return true;
-    }
+         
     
     bool validateBinaryTreeNodes(int n, vector<int>& leftchild, vector<int>& rightchild) 
     {
@@ -80,6 +107,16 @@ public:
         if(root==-1)
          return false;
 
-        return binarytree(root,leftchild,rightchild) ;
+        vector<bool>vis(n);
+        vis[root]=true;
+        if (!binarytree(root,leftchild,rightchild,vis)) 
+         return false;
+
+          for( auto it : vis )
+         {
+             if(!it)
+              return false;
+         }
+         return true;
     }
 };
