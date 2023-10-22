@@ -37,11 +37,11 @@ public:
 
     }
     
-    void print(vector<int>& nums)
-    {
-        for(int i=0;i<nums.size();i++)
-        cout<<nums[i]<<" ";
-    } 
+    // void print(vector<int>& nums)
+    // {
+    //     for(int i=0;i<nums.size();i++)
+    //     cout<<nums[i]<<" ";
+    // } 
 
     int maximumScore(vector<int>& nums, int k) 
     {
@@ -50,9 +50,9 @@ public:
         vector<int>right = get_right_min(nums,n);
         int ans= 0;
         
-        print(left);
-        cout<<endl;
-        print(right);
+        // print(left);
+        // cout<<endl;
+        // print(right);
 
         for(int i=0;i<n;i++)
         {
