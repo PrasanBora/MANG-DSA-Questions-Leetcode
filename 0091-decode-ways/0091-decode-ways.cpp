@@ -34,12 +34,12 @@ public:
          one = solvemem( index+1,s,dp);
 
       int two =0;
-       if( index+1<s.size() &&
-           (s[index]=='1'||s[index]=='2' 
-           && s[index+1]<='6'))
-           {
-              two = solvemem(index+2,s,dp);
-           }
+       if( s[index]!='0' && index +1<s.size())
+        {
+            int temp = stoi(s.substr(index,2));
+            if( temp<=26 && temp>0)
+            two = solvemem(index+2,s,dp);
+        }
     
      return dp[index] = one+two;
 
