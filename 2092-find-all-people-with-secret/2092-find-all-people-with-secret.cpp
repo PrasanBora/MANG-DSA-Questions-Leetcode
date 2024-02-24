@@ -1,5 +1,18 @@
 class Solution {
 public:
+    
+    void dfs(int person,int time,auto & adj, auto &time_known)
+    {
+          for( auto [t,p] : adj[person])
+            {
+                if(t >= time && time_known[p] > t)
+                {
+                    time_known[p] = t;
+                    dfs(p,t,adj,time_known);
+                }
+            }
+    }
+    
     vector<int> findAllPeople(int n, vector<vector<int>>& meetings, int firstPerson) 
     {
       map<int,vector<pair<int,int>>>adj;
@@ -15,28 +28,32 @@ public:
         }
         
         vector<int>time_known(n,INT_MAX);
-        time_known[0] =0;\
+        time_known[0] =0;
         time_known[firstPerson] = 0;
         
-        queue<pair<int,int>>q;
+//         queue<pair<int,int>>q;
         
-        q.push({0,0});
-        q.push({firstPerson,0});
+//         q.push({0,0});
+//         q.push({firstPerson,0});
         
-        while(!q.empty())
-        {
-            auto[ person,time ] = q.front();
-            q.pop();
+//         while(!q.empty())
+//         {
+//             auto[ person,time ] = q.front();
+//             q.pop();
             
-            for( auto [t,p] : adj[person])
-            {
-                if(t >= time && time_known[p] > t)
-                {
-                    time_known[p] = t;
-                    q.push({p,t});
-                }
-            }
-        }
+//             for( auto [t,p] : adj[person])
+//             {
+//                 if(t >= time && time_known[p] > t)
+//                 {
+//                     time_known[p] = t;
+//                     q.push({p,t});
+//                 }
+//             }
+//         }
+        
+        dfs(0,0,adj,time_known);
+        dfs(firstPerson,0,adj,time_known);
+        
         vector<int>ans;
         for( int i =0;i<n;i++)
         {
