@@ -46,32 +46,28 @@ public:
                 rangeUtil(qlow, qhigh, mid+1, high, 2*pos+2));
     }
     
-    NumArray(vector<int>& nums) {
-        if(nums.size() > 0){
-            n = nums.size();
-            seg.resize(4*n,0);  // Maximum size of a segment tree for an array of size n is 4n
-            buildTree(nums, 0, 0, n-1); // Build the segment tree
-            // Print Segment Tree
-            // for(int i=0;i<4*n;i++)
-            //     cout<<seg[i]<<" ";
-            // cout<<endl;
-        }
+    NumArray(vector<int>& nums) 
+    {
+       n = nums.size();
+        seg.resize(4*n,0);
+        
+        buildTree( nums,0,0,n-1);
     }
     
-    // Update the segment Tree recurively using updateUtil
-    void update(int index, int val) {
-        if(n==0)return;
-        updateUtil(0,0,n-1, index, val);
+    void update(int index, int val) 
+    {
+      if( n==0)
+          return ;
+       updateUtil( 0,0,n-1,index,val); 
     }
     
-    // Get the sum for a specific range for the segment Tree
-    int sumRange(int left, int right) {
-        if(n==0)return 0;
-        return rangeUtil(left, right, 0, n-1, 0); 
-        // query from left to right while segment tree is now at 'root' (pos=0) and range(0, n-1)
+    int sumRange(int left, int right) 
+    {
+        if( n==0 )
+            return 0;
+       return rangeUtil(left,right,0,n-1,0);    
     }
 };
-
 
 /**
  * Your NumArray object will be instantiated and called as such:
