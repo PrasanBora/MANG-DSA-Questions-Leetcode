@@ -40,7 +40,7 @@ public:
          ListNode * st_nxt = NULL;
          ListNode * md_nxt = NULL;
         
-        while( head && mid )
+        while( mid->next )
         {
             st_nxt = head->next;
             head->next = mid;
@@ -50,8 +50,8 @@ public:
             mid = md_nxt;
            
         }
-        if(head && head->next)
-         head->next->next =NULL;
+        // if(head && head->next)
+        //  head->next->next =NULL;
 
         
         return ;
