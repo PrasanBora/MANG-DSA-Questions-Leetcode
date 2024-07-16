@@ -11,62 +11,71 @@
  */
 class Solution {
 public:
-     TreeNode * find_lca ( TreeNode*root, int left ,int right)
-     {
-         if( !root )
-             return NULL;
-         
-         if( root->val == left || root->val == right )
-           return root;
-         
-         TreeNode * l = find_lca(root->left,left,right);
-         TreeNode * r = find_lca(root->right,left,right);
-         
-         if( l && r)
-             return root;
-         
-         else if( l && !r)
-             return l;
-         else 
-             return r;
-     }
-    
-    bool traverse(TreeNode * root ,int dest ,string &path)
+     
+    TreeNode * findlca (TreeNode* node, int left, int right)
     {
-        if( root == NULL)
-            return false ;
+        if(node == nullptr)
+            return nullptr;
         
-        if(root->val == dest)
-            return true ;
+        if(node->val == left || node->val == right)
+            return node ;
         
-        path.push_back('L');
-        if (traverse(root->left,dest,path))
-             return true;
-        path.pop_back();
+        TreeNode * leftlca = findlca(node->left,left,right);
+        TreeNode * rightlca = findlca(node->right,left,right);
         
-        path.push_back('R');
-        if(traverse(root->right,dest,path))
-            return true;
-        path.pop_back();
-        
-        return false;
+        if( leftlca && rightlca )
+        {
+            return node ;
+        }
+        else if ( leftlca && !rightlca )
+            return leftlca;
+        else 
+            return rightlca;
         
     }
     
+    bool traverse (TreeNode * root , int target , string & path )
+    {
+        if( !root )
+            return 0;
+        if( root -> val == target )
+             return 1;
+        
+        path.push_back('L');
+        
+        if( traverse(root->left ,target,path))
+            return true;
+        
+        path.pop_back();
+        
+        path.push_back('R');
+        
+        if( traverse(root->right ,target,path))
+            return true;
+        
+        path.pop_back();
+        
+        return false;
+    }
     
     string getDirections(TreeNode* root, int startValue, int destValue) 
     {
-      TreeNode * lca = find_lca(root,startValue,destValue);
-      // cout<<lca->val;
-        string lca_start = "";
-        string lca_dest  =  "";
+       TreeNode* lca = findlca( root ,startValue, destValue );
+       
+        string lca_start ;
+        string lca_end ;
         
-        traverse(lca,startValue,lca_start);
-        traverse(lca,destValue,lca_dest);
+         traverse ( lca , startValue ,lca_start);
+         traverse ( lca , destValue ,lca_end);
         
-        for( auto &ch : lca_start)
-            ch ='U';
+        string res = "";
         
-        return lca_start + lca_dest ;
+        for( auto it : lca_start )
+            res+= 'U';
+        
+        res+=lca_end;
+        
+        return res;
+        
     }
 };
