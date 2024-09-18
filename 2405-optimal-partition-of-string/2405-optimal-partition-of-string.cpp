@@ -1,24 +1,45 @@
 class Solution {
 public:
+//     int partitionString(string s) 
+//     {
+//       int ans = 1; 
+      
+//         unordered_map<char,int>freq;
+        
+//         for( int i=0 ;i<s.length();i++ )
+//         {
+//             if(freq.find(s[i]) == freq.end())
+//             {
+//                 freq[s[i]]++;
+//             }
+//             else 
+//             {
+//                 ans++;
+//                 freq.clear();
+//                 freq[s[i]]++;
+//             }
+//         }
+//         return ans ;
+//     }
+    
+    
     int partitionString(string s) 
     {
       int ans = 1; 
       
-        unordered_map<char,int>freq;
+        vector<int>lastseen(26,-1);
+        int start = 0;
         
         for( int i=0 ;i<s.length();i++ )
         {
-            if(freq.find(s[i]) == freq.end())
-            {
-                freq[s[i]]++;
-            }
-            else 
+            if(lastseen[s[i]-'a'] >= start)
             {
                 ans++;
-                freq.clear();
-                freq[s[i]]++;
+                start=i;
             }
+            lastseen[s[i]-'a'] = i;
         }
         return ans ;
     }
+    
 };
