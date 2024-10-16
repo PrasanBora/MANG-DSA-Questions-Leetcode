@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Array
 |  |
 | ------- |
+| [0713-subarray-product-less-than-k](https://github.com/PrasanBora/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1002-maximum-width-ramp](https://github.com/PrasanBora/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [1256-rank-transform-of-an-array](https://github.com/PrasanBora/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/PrasanBora/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
@@ -74,4 +75,16 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/PrasanBora/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
+## Binary Search
+|  |
+| ------- |
+| [0713-subarray-product-less-than-k](https://github.com/PrasanBora/Leetcode/tree/master/0713-subarray-product-less-than-k) |
+## Sliding Window
+|  |
+| ------- |
+| [0713-subarray-product-less-than-k](https://github.com/PrasanBora/Leetcode/tree/master/0713-subarray-product-less-than-k) |
+## Prefix Sum
+|  |
+| ------- |
+| [0713-subarray-product-less-than-k](https://github.com/PrasanBora/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 <!---LeetCode Topics End-->
