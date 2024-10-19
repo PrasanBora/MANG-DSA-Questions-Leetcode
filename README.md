@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/PrasanBora/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/PrasanBora/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
+| [1667-find-kth-bit-in-nth-binary-string](https://github.com/PrasanBora/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/PrasanBora/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/PrasanBora/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Stack
@@ -45,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Simulation
 |  |
 | ------- |
+| [1667-find-kth-bit-in-nth-binary-string](https://github.com/PrasanBora/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/PrasanBora/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Greedy
 |  |
@@ -87,4 +89,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/PrasanBora/Leetcode/tree/master/0713-subarray-product-less-than-k) |
+## Recursion
+|  |
+| ------- |
+| [1667-find-kth-bit-in-nth-binary-string](https://github.com/PrasanBora/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 <!---LeetCode Topics End-->
