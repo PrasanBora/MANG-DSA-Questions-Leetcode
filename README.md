@@ -93,4 +93,20 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/PrasanBora/Leetcode/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+## Tree
+|  |
+| ------- |
+| [1035-cousins-in-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/1035-cousins-in-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [1035-cousins-in-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/1035-cousins-in-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1035-cousins-in-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/1035-cousins-in-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [1035-cousins-in-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 <!---LeetCode Topics End-->
