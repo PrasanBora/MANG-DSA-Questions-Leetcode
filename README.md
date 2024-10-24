@@ -97,11 +97,13 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/0226-invert-binary-tree) |
+| [0988-flip-equivalent-binary-trees](https://github.com/PrasanBora/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1035-cousins-in-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/0226-invert-binary-tree) |
+| [0988-flip-equivalent-binary-trees](https://github.com/PrasanBora/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1035-cousins-in-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -112,5 +114,6 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/0226-invert-binary-tree) |
+| [0988-flip-equivalent-binary-trees](https://github.com/PrasanBora/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1035-cousins-in-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/1035-cousins-in-binary-tree) |
 <!---LeetCode Topics End-->
