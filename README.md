@@ -99,21 +99,25 @@ Collection of LeetCode questions to ace the coding interview!
 | [0226-invert-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/PrasanBora/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1035-cousins-in-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/1035-cousins-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/PrasanBora/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1035-cousins-in-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/1035-cousins-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/0226-invert-binary-tree) |
 | [1035-cousins-in-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/1035-cousins-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/PrasanBora/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [1035-cousins-in-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/1035-cousins-in-binary-tree) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/PrasanBora/Leetcode/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 <!---LeetCode Topics End-->
