@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1256-rank-transform-of-an-array](https://github.com/PrasanBora/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/PrasanBora/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/PrasanBora/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/PrasanBora/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Two Pointers
 |  |
 | ------- |
@@ -39,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/PrasanBora/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/PrasanBora/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/PrasanBora/Leetcode/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/PrasanBora/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Stack
 |  |
 | ------- |
@@ -130,4 +132,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/PrasanBora/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+## Counting
+|  |
+| ------- |
+| [3455-minimum-length-of-string-after-operations](https://github.com/PrasanBora/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 <!---LeetCode Topics End-->
