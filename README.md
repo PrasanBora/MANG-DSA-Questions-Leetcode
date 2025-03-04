@@ -144,4 +144,8 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/PrasanBora/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+## Math
+|  |
+| ------- |
+| [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/PrasanBora/Leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 <!---LeetCode Topics End-->
