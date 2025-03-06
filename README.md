@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1381-maximum-score-words-formed-by-letters](https://github.com/PrasanBora/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/PrasanBora/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/PrasanBora/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [3227-find-missing-and-repeated-values](https://github.com/PrasanBora/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Hash Table
 |  |
 | ------- |
@@ -21,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1256-rank-transform-of-an-array](https://github.com/PrasanBora/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/PrasanBora/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/PrasanBora/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [3227-find-missing-and-repeated-values](https://github.com/PrasanBora/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/PrasanBora/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Two Pointers
 |  |
@@ -148,4 +150,9 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/PrasanBora/Leetcode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
+| [3227-find-missing-and-repeated-values](https://github.com/PrasanBora/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
+## Matrix
+|  |
+| ------- |
+| [3227-find-missing-and-repeated-values](https://github.com/PrasanBora/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 <!---LeetCode Topics End-->
