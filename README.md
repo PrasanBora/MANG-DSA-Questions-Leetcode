@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/PrasanBora/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/PrasanBora/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3483-alternating-groups-ii](https://github.com/PrasanBora/Leetcode/tree/master/3483-alternating-groups-ii) |
+| [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/PrasanBora/Leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 ## Hash Table
 |  |
 | ------- |
