@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [0713-subarray-product-less-than-k](https://github.com/PrasanBora/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/PrasanBora/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1002-maximum-width-ramp](https://github.com/PrasanBora/Leetcode/tree/master/1002-maximum-width-ramp) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/PrasanBora/Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/PrasanBora/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/PrasanBora/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/PrasanBora/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
@@ -23,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/PrasanBora/Leetcode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/PrasanBora/Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1256-rank-transform-of-an-array](https://github.com/PrasanBora/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/PrasanBora/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1500-count-largest-group](https://github.com/PrasanBora/Leetcode/tree/master/1500-count-largest-group) |
@@ -153,6 +155,7 @@ Collection of LeetCode questions to ace the coding interview!
 ## Counting
 |  |
 | ------- |
+| [1227-number-of-equivalent-domino-pairs](https://github.com/PrasanBora/Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/PrasanBora/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Divide and Conquer
 |  |
