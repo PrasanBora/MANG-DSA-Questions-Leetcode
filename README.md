@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/PrasanBora/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/PrasanBora/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/PrasanBora/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/PrasanBora/Leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/PrasanBora/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3483-alternating-groups-ii](https://github.com/PrasanBora/Leetcode/tree/master/3483-alternating-groups-ii) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/PrasanBora/Leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
@@ -49,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1468-check-if-n-and-its-double-exist](https://github.com/PrasanBora/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2215-finding-3-digit-even-numbers](https://github.com/PrasanBora/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/PrasanBora/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/PrasanBora/Leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 ## String
 |  |
 | ------- |
@@ -81,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/PrasanBora/Leetcode/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/PrasanBora/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/PrasanBora/Leetcode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
+| [3241-divide-array-into-arrays-with-max-difference](https://github.com/PrasanBora/Leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 ## Dynamic Programming
 |  |
 | ------- |
