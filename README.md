@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/PrasanBora/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/PrasanBora/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2215-finding-3-digit-even-numbers](https://github.com/PrasanBora/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
+| [2316-count-hills-and-valleys-in-an-array](https://github.com/PrasanBora/Leetcode/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/PrasanBora/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/PrasanBora/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/PrasanBora/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
