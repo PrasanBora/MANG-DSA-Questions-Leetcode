@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview!
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/PrasanBora/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/PrasanBora/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/PrasanBora/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/PrasanBora/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1813-maximum-erasure-value](https://github.com/PrasanBora/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/PrasanBora/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/PrasanBora/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
@@ -93,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1381-maximum-score-words-formed-by-letters](https://github.com/PrasanBora/Leetcode/tree/master/1381-maximum-score-words-formed-by-letters) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/PrasanBora/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Backtracking
 |  |
 | ------- |
@@ -123,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/PrasanBora/Leetcode/tree/master/0713-subarray-product-less-than-k) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/PrasanBora/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1813-maximum-erasure-value](https://github.com/PrasanBora/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [3483-alternating-groups-ii](https://github.com/PrasanBora/Leetcode/tree/master/3483-alternating-groups-ii) |
 ## Prefix Sum
