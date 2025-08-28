@@ -219,3 +219,22 @@ I’ve written clean, optimized solutions and sometimes multiple approaches.
 | ------- |
 | [2215-finding-3-digit-even-numbers](https://github.com/PrasanBora/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 <!---LeetCode Topics End-->
+
+
+## 🌟 Why this Repo?
+- 🧑‍💼 Built for **interview prep**  
+- 📌 Covers **common patterns** recruiters expect  
+- 🔄 Constantly updated with **new problems & insights**  
+- 🌊 Helps others navigate the **overwhelming LeetCode ocean**  
+
+---
+
+## 🤝 Contributing
+PRs are welcome!  
+If you have a cleaner solution or new problem solved, feel free to contribute 🚀  
+
+---
+
+## ⭐ Support
+If this repo helps you in your coding journey,  
+**Give it a star ⭐** — it motivates me to add more content!  
