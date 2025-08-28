@@ -1,5 +1,13 @@
-# Leetcode
-Collection of LeetCode questions to ace the coding interview! 
+# 📘 LeetCode Mastermind  
+A curated collection of my LeetCode solutions + problem-solving patterns for interviews and beyond.
+
+## 🚀 About this Repo
+This repo contains my solutions to **LeetCode problems** across multiple categories.  
+I’ve written clean, optimized solutions and sometimes multiple approaches.  
+
+💡 The goal: **Master problem-solving patterns for interviews (FAANG / Tier-1 Tech Companies).**  
+
+
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
