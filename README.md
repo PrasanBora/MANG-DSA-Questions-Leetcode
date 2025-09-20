@@ -30,6 +30,7 @@ I’ve written clean, optimized solutions and sometimes multiple approaches.
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/PrasanBora/Leetcode/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/PrasanBora/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/PrasanBora/Leetcode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/PrasanBora/MANG-DSA-Questions-Leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/PrasanBora/Leetcode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/PrasanBora/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/PrasanBora/Leetcode/tree/master/3241-divide-array-into-arrays-with-max-difference) |
@@ -48,6 +49,7 @@ I’ve written clean, optimized solutions and sometimes multiple approaches.
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/PrasanBora/Leetcode/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2215-finding-3-digit-even-numbers](https://github.com/PrasanBora/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/PrasanBora/Leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/PrasanBora/MANG-DSA-Questions-Leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/PrasanBora/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/PrasanBora/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/PrasanBora/Leetcode/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -135,6 +137,7 @@ I’ve written clean, optimized solutions and sometimes multiple approaches.
 | [0713-subarray-product-less-than-k](https://github.com/PrasanBora/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/PrasanBora/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1813-maximum-erasure-value](https://github.com/PrasanBora/Leetcode/tree/master/1813-maximum-erasure-value) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/PrasanBora/MANG-DSA-Questions-Leetcode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3483-alternating-groups-ii](https://github.com/PrasanBora/Leetcode/tree/master/3483-alternating-groups-ii) |
 ## Prefix Sum
 |  |
